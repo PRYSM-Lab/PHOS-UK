@@ -1,27 +1,28 @@
 # PHOS-UK
-This file explains how to use the PHOS-UK Graphical User Interface (GUI) developed for running the energy system optimisation in the United Kingdom. It allows users to configure model settings, select optimisation approaches, prepare input data, and execute simulations.
-PHOS-UK can be executed using different optimisation approaches:
-•	Deterministic optimisation
-•	Stochastic optimisation
-•	Robust optimisation
+PHOS-UK is a Graphical User Interface (GUI) tool,  developed for examining integrated heat and power decarbonisation, through electrification, hydrogen and hybrid pathways in the United Kingdom. It allows users to configure model settings, select optimisation approaches, prepare input data, and execute simulations. At current stage of development, PHOS-UK can be executed using different optimisation approaches:
+
+•	Deterministic optimisation  (Hydrogen and power)
+•	Two-stage stochastic optimisation (Hydrogen only)
+•	(Adapative) Robust optimisation (Hydrogen only)
+
 These approaches enable users to analyse the system under different levels of uncertainty.
  
 
 ### Deterministic Optimisation
 In deterministic optimisation, all parameters such as demand, renewable generation, and fuel costs are assumed to be known with certainty.
 
+### Two-stage stochastic optimisation
+In two-stage stochastic optimisation, uncertainty is explicitly represented through multiple scenarios. These scenarios may represent variations in renewable availability, energy demand, or other uncertain parameters.
+    The stochastic formulation is implemented using two-stage stochastic programming.Scenario generation and reduction is be performed using the SCENREDPY tool. The Fast Forward Selection (FFS) algorithm is used to reduce the number of scenarios while preserving the statistical properties of the original dataset.
 
-•	Stochastic Optimisation
-In stochastic optimisation, uncertainty is explicitly represented through multiple scenarios. These scenarios may represent variations in renewable availability, energy demand, or other uncertain parameters.
-    The stochastic formulation is implemented using multi-stage stochastic programming.
-Scenario generation and reduction can be performed using the SCENREDPY tool. The Fast Forward Selection (FFS) algorithm is used to reduce the number of scenarios while preserving the statistical properties of the original dataset.
-•	Robust Optimisation
+### Robust Optimisation
 Robust optimisation considers uncertainty using predefined uncertainty sets. In PHOS-UK, uncertainty can be represented using a polyhedron uncertainty set.
 Two robust approaches are considered:
 •	Static robust optimisation
 •	Adaptive robust optimisation
-     After selecting the optimisation method and preparing the input data, the model can be solved using an optimisation solver.
-The optimisation model is formulated as a Mixed-Integer Linear Programming (MILP) problem.
+After selecting the optimisation method and preparing the input data, the model can be solved using an optimisation solver. The optimisation model is formulated as a Mixed-Integer Linear Programming (MILP) problem.
+_______ 
+
 Users can run the model either:
 •	locally on their machine, or
 •	using the NEOS optimisation server.
@@ -29,7 +30,7 @@ The user may specify the optimality gap as a termination criterion for the solve
 
 
 
-# Running PHOS-UK Using the GUI
+# Running PHOS-UK using the GUI
 This section describes the step-by-step procedure to run the PHOS-UK model using the GUI. 
 Step 0 – Install PHOS-UK
 First, install the PHOS-UK system from the official repository as follows:
