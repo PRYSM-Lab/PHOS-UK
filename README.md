@@ -7,7 +7,7 @@ PHOS-UK can be executed using different optimisation approaches:
 These approaches enable users to analyse the system under different levels of uncertainty.
  
 
-•	Deterministic Optimisation
+### Deterministic Optimisation
 In deterministic optimisation, all parameters such as demand, renewable generation, and fuel costs are assumed to be known with certainty.
 
 
