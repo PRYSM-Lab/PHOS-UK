@@ -110,7 +110,6 @@ Make sure all project files are correctly placed in the working directory.
 
 ---
 
-<img width="680" height="254" alt="image" src="https://github.com/user-attachments/assets/94fa2c66-a78b-4e13-9ad4-63ac994858ff" />
 
 
 
@@ -141,7 +140,6 @@ python PHOS-UK.py
 
 This launches the Graphical User Interface (GUI).
 
-<img width="526" height="478" alt="image" src="https://github.com/user-attachments/assets/d9891c61-5e4d-4b22-a22a-46ee82735415" />
 
 ---
 
@@ -156,7 +154,6 @@ Available options:
 
 This determines the structure of the optimisation model.
 
-<img width="554" height="305" alt="image" src="https://github.com/user-attachments/assets/b2d79f64-1b37-4853-8fc3-c8520be6fbf7" />
 
 ---
 
@@ -169,9 +166,6 @@ Available options for hydrogen-led decarbonisation:
 * Deterministic
 * Stochastic
 * Robust
-
-
-<img width="479" height="328" alt="image" src="https://github.com/user-attachments/assets/369a53f7-891c-4bc4-bb48-7ec7308740cf" />  <img width="495" height="279" alt="image" src="https://github.com/user-attachments/assets/5754dfa3-e969-4ee3-ac11-46241f1e6588" />
 
 
 
@@ -193,7 +187,6 @@ Available architectures:
 
 ⚠️ Hyperlinks provided in the GUI panel redirect users to the corresponding published research papers.
 
-<img width="535" height="385" alt="image" src="https://github.com/user-attachments/assets/11fc04ee-63a1-4a38-9a53-c64e2b2a6803" />
 
 
 ---
@@ -212,7 +205,6 @@ Examples include:
 Users must ensure the correct file is selected before execution.
 
 
-<img width="821" height="334" alt="image" src="https://github.com/user-attachments/assets/7b3afb2b-4752-4ad6-8c17-8ca71341fe65" />
 
 ---
 
@@ -235,7 +227,6 @@ This script performs:
 Its purpose is to identify representative operational days while reducing computational burden.
 
 
-<img width="800" height="277" alt="image" src="https://github.com/user-attachments/assets/999c0781-1222-4add-ad68-b952ecb48663" />
 
 
 ---
@@ -248,7 +239,6 @@ The optimisation problem can be solved using:
 * NEOS Optimisation Server
 
 
-<img width="456" height="284" alt="image" src="https://github.com/user-attachments/assets/3b44612c-6c78-4a13-950a-f895d5bbe52c" />
 
 
 ---
@@ -264,7 +254,6 @@ Examples:
 * GLPK
 
 
-<img width="612" height="319" alt="image" src="https://github.com/user-attachments/assets/080a0e60-ad8e-4ba3-bfe5-43cb77f70176" />
 
 
 ---
@@ -280,7 +269,6 @@ If the NEOS option is selected:
 This option is useful when a local solver is unavailable.
 
 
-<img width="317" height="215" alt="image" src="https://github.com/user-attachments/assets/53244103-d3fd-449b-9e3d-17e54bad0f84" />
 
 
 ---
@@ -341,7 +329,6 @@ The user must provide:
 This significantly improves computational tractability.
 
 
-<img width="432" height="360" alt="image" src="https://github.com/user-attachments/assets/96ba847f-0298-4f80-8b9f-1ec8dbeb758d" />
 
 
 
