@@ -97,8 +97,10 @@ This approach ensures system feasibility under worst-case demand scenario.
 
 **Please make sure that all input files, Excel files, Python scripts, and required model files are placed in the same working directory (same folder) before running the model.**
 
-**This is necessary to ensure that the optimisation framework can correctly read input data and execute without file path errors.**
+**This is necessary to ensure that the optimisation framework can correctly read input data and execute without file path errors.**  
 
+⚠️ Notice
+Before running PHOS, please unzip the CombinedData.zip and Step2_1.zip and place input data (CombinedData.csv and Step2_1.xlsx) in the same directory as the PHOS project. These files are distributed as ZIP archives because their original sizes exceed GitHub's file size limits, making it impractical to store them directly in the repository
 ---
 
 
